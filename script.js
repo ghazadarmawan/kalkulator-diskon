@@ -6,7 +6,7 @@ function calculate() {
       return;
     }
   
-    const pricePerKwh = 1467; // Harga per kWh PLN (misalnya)
+    const pricePerKwh = 1352; // Harga per kWh PLN (misalnya)
     const totalCost = usage * pricePerKwh;
   
     displayResult(totalCost);
@@ -16,4 +16,5 @@ function calculate() {
     const resultElement = document.getElementById('result');
     resultElement.innerText = `Biaya listrik yang harus dibayar: Rp ${totalCost.toFixed(2)}`;
   }
+  
   
